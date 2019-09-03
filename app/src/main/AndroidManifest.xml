@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".others_activity.AmbulanceCall"></activity>
         <activity android:name=".others_activity.NearClinic" />
         <activity android:name=".others_activity.Ambulance" />
         <activity android:name=".others_activity.EmergencyPhone" />

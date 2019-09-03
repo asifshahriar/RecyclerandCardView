@@ -97,7 +97,7 @@
     ---------------------- CardiacSurgery doctor end----------------
 
     ---------------------- Cardiology doctor start----------------
-                            //doctor name array
+    //doctor name array
 
     <string-array name="Cardiology_name">
         <item>Dr A.k.m Hanif Chowdhury</item>
@@ -109,7 +109,7 @@
         <item>Prof. Dr. Nowyajes Farid</item>
 
     </string-array>
-                            //doctor desc
+    //doctor desc
     <string-array name="Cardiology_desc">
         <item>MBBS,MD (Cardiology)</item>
         <item>MBBS,BCS (Helth),D-Card(DU),FCPS (Cardiology)</item>
@@ -120,7 +120,7 @@
         <item>MBBS,D-Card(DU),WHO Fellow(India, Thailand) (Cardiology)</item>
 
     </string-array>
-                            //doctor details
+    //doctor details
     <string-array name="Cardiology_details">
         <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
         <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Popular Diagnostic Center Two, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৫০০ টাকা \n পরের ভিজিটঃ ৩০০ টাকা</item>
@@ -131,7 +131,7 @@
         <item>\n কর্মস্থলঃ Prime Medical College and Hospital \n চেম্বারঃ Prime Medical College Hospital, Rangpur Sadar \n\n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
 
     </string-array>
-                            //doctor phone
+    //doctor phone
     <string-array name="Cardiology_Phone">
         <item>01922-588061</item>
         <item>01944-447910</item>
@@ -1077,7 +1077,7 @@
 
     ---------------------- Vascular Surgery doctor end---------------
 
-//ambulance name
+    //ambulance name
 
     <string-array name="Ambulance_list">
         <item>Center Hospital</item>

@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.recyclerandcardview.R;
 import com.example.recyclerandcardview.adapter.MyAdapter;
@@ -19,7 +20,6 @@ public class Ambulance extends AppCompatActivity {
     MyAdapter myAdapter;
     private int[] images = {R.drawable.ambulance,R.drawable.ambulance,R.drawable.ambulance,R.drawable.ambulance,R.drawable.ambulance};
     private String[] ambulanceName, ambulanceDesc;
-    private TextView desc;
     private RecyclerView recycler;
 
     @Override
@@ -28,7 +28,6 @@ public class Ambulance extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recycler = findViewById(R.id.recyclerId);
-        desc = findViewById(R.id.descId);
 
         ambulanceName = getResources().getStringArray(R.array.Ambulance_list);
         ambulanceDesc = getResources().getStringArray(R.array.Ambulance_desc);
@@ -37,12 +36,10 @@ public class Ambulance extends AppCompatActivity {
         recycler.setAdapter(myAdapter);
         recycler.setLayoutManager(new LinearLayoutManager(this));
 
-        desc.setOnClickListener(new View.OnClickListener() {
+        myAdapter.setOnItemClickListener(new MyAdapter.ClickListener() {
             @Override
-            public void onClick(View view) {
-                String mPhone = desc.getText().toString();
-                mPhone = mPhone.replaceAll("[^0-9]","");
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+mPhone));
+            public void onItemClick(int position, View v) {
+                Intent intent = new Intent(Ambulance.this,AmbulanceCall.class);
                 startActivity(intent);
             }
         });
