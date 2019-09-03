@@ -24,7 +24,7 @@ public class EmergencyPhone extends AppCompatActivity {
             public void onClick(View view) {
                 String mPhone = button.getText().toString();
                 mPhone = mPhone.replaceAll("[^0-9]","");
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(""));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+mPhone));
                 startActivity(intent);
             }
         });
