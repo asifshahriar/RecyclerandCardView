@@ -12,13 +12,6 @@
     <TextView
         style="@style/style_1"
         android:textSize="40sp"
-        android:text="Coming soon..."
-
-        />
-    <TextView
-        style="@style/style_1"
-        android:textSize="40sp"
-        android:text="Coming soon..."
-
+        android:text="@string/next"
         />
 </LinearLayout>

@@ -44,6 +44,9 @@
         <item> রক্তনালী সার্জারি \n Vascular Surgery</item>
     </string-array>
 
+
+    // coming soon
+    <string name="next">Comeing soon</string>
     ---------------------- CardiacSurgery doctor start----------------
     //doctor name array
 
