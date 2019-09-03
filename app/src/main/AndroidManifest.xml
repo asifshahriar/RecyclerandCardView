@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recyclerandcardview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/doctor_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".others_activity.NearClinic" />
+        <activity android:name=".others_activity.Ambulance" />
+        <activity android:name=".others_activity.EmergencyPhone" />
+        <activity android:name=".others_activity.Diagnostic" />
+        <activity android:name=".doctor_activity.VascularSurgery" />
+        <activity android:name=".doctor_activity.UrologySurgery" />
+        <activity android:name=".doctor_activity.SurgicalSurgery" />
+        <activity android:name=".doctor_activity.PlasticSurgery" />
+        <activity android:name=".doctor_activity.PaediatricSurgery" />
+        <activity android:name=".doctor_activity.OrthopedicSurgery" />
+        <activity android:name=".doctor_activity.GynecologySurgery" />
+        <activity android:name=".doctor_activity.GeneralSurgery" />
+        <activity android:name=".doctor_activity.EyeSurgery" />
+        <activity android:name=".doctor_activity.ENTSurgery" />
+        <activity android:name=".doctor_activity.DentalSurgery" />
+        <activity android:name=".doctor_activity.ColorectalSurgery" />
+        <activity android:name=".doctor_activity.CardiacSurgery" />
+        <activity android:name=".doctor_activity.Urology" />
+        <activity android:name=".doctor_activity.Rheumatology" />
+        <activity android:name=".doctor_activity.Physiotherapy" />
+        <activity android:name=".doctor_activity.Pulmonology" />
+        <activity android:name=".doctor_activity.Psychiatric" />
+        <activity android:name=".doctor_activity.Paediatrics" />
+        <activity android:name=".doctor_activity.Orthopedics" />
+        <activity android:name=".doctor_activity.Ophthalmology" />
+        <activity android:name=".doctor_activity.Oncology" />
+        <activity android:name=".doctor_activity.Neuromedicine" />
+        <activity android:name=".doctor_activity.Neurosurgery" />
+        <activity android:name=".doctor_activity.Neurology" />
+        <activity android:name=".doctor_activity.Nephrology" />
+        <activity android:name=".doctor_activity.Hepatology" />
+        <activity android:name=".doctor_activity.Hematology" />
+        <activity android:name=".doctor_activity.Gynecology" />
+        <activity android:name=".doctor_activity.Gastroenterology" />
+        <activity android:name=".doctor_activity.ENT" />
+        <activity android:name=".doctor_activity.Endocrinology" />
+        <activity android:name=".doctor_activity.Dietetics" />
+        <activity android:name=".doctor_activity.Diabetic" />
+        <activity android:name=".doctor_activity.Dermatology" />
+        <activity android:name=".doctor_activity.Dentistry" />
+        <activity android:name=".doctor_activity.ChestDiseases" />
+        <activity android:name=".doctor_activity.Cardiology" />
+        <activity android:name=".others_activity.Profile" />
+        <activity android:name=".others_activity.HospitalListView" />
+        <activity android:name=".doctor_activity.MainActivity" />
+        <activity android:name=".view_pager.ViewPager" />
+        <activity android:name=".all_view.GridView" />
+        <activity android:name=".splash_screen.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

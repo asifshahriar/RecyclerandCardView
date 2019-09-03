@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDD8D8"
+    tools:context=".others_activity.Profile">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/splashBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/textViewIdProfile"
+                style="@style/style_1"
+                android:textColor="@color/background"
+                android:text="Name"
+                />
+            <ImageView
+                android:id="@+id/drImageId"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="280dp"
+                android:src="@mipmap/ic_launcher"/>
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:id="@+id/descId"
+                style="@style/style_2"
+                android:text="details"
+                android:textColor="@color/background"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detailsId"
+                style="@style/style_2"
+                android:text="details"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:background="#fff"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/numberId"
+                style="@style/style_1"
+                android:text="01774508260"
+                android:padding="5dp"
+                android:layout_marginRight="100dp"
+                />
+            <ImageView
+                android:clickable="true"
+                android:id="@+id/imageCallId"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/call_action_name"
+                android:background="@drawable/call_background"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

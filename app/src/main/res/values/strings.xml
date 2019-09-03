@@ -1,0 +1,1143 @@
+<resources>
+    <string name="app_name">Doctor</string>
+    <string name="splash_name">Human Care</string>
+    //Specialist_option
+    <string-array name="Specialist_option">
+        <item> হৃদরোগ \n Cardiology</item>
+        <item> বক্ষব্যাধি \n Chest Diseases</item>
+        <item> দাঁত \n Dentistry</item>
+        <item> চর্ম \n Dermatology</item>
+        <item> ডায়াবেটিস \n Diabetic</item>
+        <item> খাদ্য ও পুষ্টি \n Dietetics</item>
+        <item> হরমোন \n Endocrinology</item>
+        <item> নাক, কান, গলা \n ENT</item>
+        <item> পরিপাক তন্ত্র \n Gastroenterology</item>
+        <item> মহিলা ও প্রসূতি \n Gynecology</item>
+        <item> রক্ত রোগ \n Hematology</item>
+        <item> লিভার, গলব্লাডার \n Hepatology</item>
+        <item> মেডিসিন \n Medicine</item>
+        <item> কিডনি \n Nephrology</item>
+        <item> ব্রেন ও স্নায়ু \n Neurology</item>
+        <item> নিউরো সার্জারি \n Neurosurgery</item>
+        <item> নিউরো মেডিসিন \n Neuromedicine</item>
+        <item> ক্যান্সার \n Oncology</item>
+        <item> চোখ \n Ophthalmology</item>
+        <item> হাড় \n Orthopedics</item>
+        <item> শিশু ও নব্জাতক \n Paediatrics</item>
+        <item> মানসিক \n Psychiatric</item>
+        <item> ফুসফুস \n Pulmonology</item>
+        <item> ফিজিওথেরাপি \n Physiotherapy</item>
+        <item> বাত রোগ \n Rheumatology</item>
+        <item> মূত্র \n Urology</item>
+        <item> হার্ট সার্জারি \n Cardiac Surgery</item>
+        <item> মলাশয় সার্জারি \n colorectal Surgery</item>
+        <item> দন্ত সার্জারি \n Dental Surgery</item>
+        <item> নাক, কান ও গলা সার্জারি \n ENT Surgery</item>
+        <item> চক্ষু সার্জারি \n Eye Surgery</item>
+        <item> জেনারেল সার্জারি \n General Surgery</item>
+        <item> মহিলা ও প্রসুতি সার্জারি \n Gynecology Surgery</item>
+        <item> হাড় সার্জারি \n Orthopedic Surgery</item>
+        <item> শিশু সার্জারি \n Paediatric Surgery</item>
+        <item> প্লাস্টিক সার্জারি \n Plastic Surgery</item>
+        <item> ক্যান্সার সার্জারি \n Surgical Surgery</item>
+        <item> কিডনি ও মুত্র সার্জারি \n Urology Surgery</item>
+        <item> রক্তনালী সার্জারি \n Vascular Surgery</item>
+    </string-array>
+
+    ---------------------- CardiacSurgery doctor start----------------
+    //doctor name array
+
+    <string-array name="CardiacSurgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+        <item>Dr Abdullah- Al- Mahmud</item>
+        <item>Dr Md. Abu Jahid Basunia</item>
+        <item>Dr Md. Hasanul Islam</item>
+        <item>Dr Md. Rabindranath Barman</item>
+        <item>Prof. Dr. A.k.m Hanif Chowdhury</item>
+        <item>Prof. Dr. Nowyajes Farid</item>
+
+    </string-array>
+    //doctor desc
+    <string-array name="CardiacSurgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,BCS (Helth),D-Card(DU),FCPS (Cardiology)</item>
+        <item>MBBS(Dhaka), BCS (Helth),MD (Cardiology)</item>
+        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,D-Card(DU),WHO Fellow(India, Thailand) (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="CardiacSurgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Popular Diagnostic Center Two, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৫০০ টাকা \n পরের ভিজিটঃ ৩০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Apollo Diagnostic and Imaging Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Update Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Popular Diagnostic Center One, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Rangpur Community Medical College Hospital, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Prime Medical College and Hospital \n চেম্বারঃ Prime Medical College Hospital, Rangpur Sadar \n\n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="CardiacSurgery_Phone">
+        <item>01922-588061</item>
+        <item>01944-447910</item>
+        <item>01733-008087</item>
+        <item>01971-555555</item>
+        <item>01754-547097</item>
+        <item>01717-292458</item>
+        <item>01730-033110</item>
+
+    </string-array>
+
+    ---------------------- CardiacSurgery doctor end----------------
+
+    ---------------------- Cardiology doctor start----------------
+                            //doctor name array
+
+    <string-array name="Cardiology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+        <item>Dr Abdullah- Al- Mahmud</item>
+        <item>Dr Md. Abu Jahid Basunia</item>
+        <item>Dr Md. Hasanul Islam</item>
+        <item>Dr Md. Rabindranath Barman</item>
+        <item>Prof. Dr. A.k.m Hanif Chowdhury</item>
+        <item>Prof. Dr. Nowyajes Farid</item>
+
+    </string-array>
+                            //doctor desc
+    <string-array name="Cardiology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,BCS (Helth),D-Card(DU),FCPS (Cardiology)</item>
+        <item>MBBS(Dhaka), BCS (Helth),MD (Cardiology)</item>
+        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,D-Card(DU),WHO Fellow(India, Thailand) (Cardiology)</item>
+
+    </string-array>
+                            //doctor details
+    <string-array name="Cardiology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Popular Diagnostic Center Two, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৫০০ টাকা \n পরের ভিজিটঃ ৩০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Apollo Diagnostic and Imaging Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Update Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Popular Diagnostic Center One, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Rangpur Community Medical College Hospital, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Prime Medical College and Hospital \n চেম্বারঃ Prime Medical College Hospital, Rangpur Sadar \n\n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+                            //doctor phone
+    <string-array name="Cardiology_Phone">
+        <item>01922-588061</item>
+        <item>01944-447910</item>
+        <item>01733-008087</item>
+        <item>01971-555555</item>
+        <item>01754-547097</item>
+        <item>01717-292458</item>
+        <item>01730-033110</item>
+
+    </string-array>
+
+    ---------------------- Cardiology doctor end----------------
+
+    ---------------------- Chest doctor start----------------
+    //doctor name array
+    <string-array name="ChestDr_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="ChestDr_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="ChestDr_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="ChestDr_Phone">
+        <item>01922-588061</item>
+    </string-array>
+
+    ---------------------- Chest doctor end----------------
+
+    ---------------------- ColorectalSurgery doctor start----------------
+    //doctor name array
+    <string-array name="ColorectalSurgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="ColorectalSurgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="ColorectalSurgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="ColorectalSurgery_Phone">
+        <item>01922-588061</item>
+    </string-array>
+
+    ---------------------- ColorectalSurgery doctor end----------------
+
+    ---------------------- Dentistry doctor start----------------
+    //doctor name array
+    <string-array name="Dentistry_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Dentistry_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Dentistry_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Dentistry_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Dentistry doctor end----------------
+
+    ---------------------- Dermatology doctor start----------------
+    //doctor name array
+    <string-array name="Dermatology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Dermatology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Dermatology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Dermatology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Dermatology doctor end----------------
+
+    ---------------------- Diabetic doctor start----------------
+    //doctor name array
+    <string-array name="Diabetic_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Diabetic_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Diabetic_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Diabetic_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Diabetic doctor end---------------
+
+    ---------------------- Dietetics doctor start----------------
+    //doctor name array
+    <string-array name="Dietetics_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Dietetics_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Dietetics_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Dietetics_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Diabetic doctor end---------------
+
+    ---------------------- Endocrinology doctor start----------------
+    //doctor name array
+    <string-array name="Endocrinology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Endocrinology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Endocrinology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Endocrinology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Endocrinology doctor end---------------
+
+    ---------------------- ENT doctor start----------------
+    //doctor name array
+    <string-array name="ENT_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="ENT_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="ENT_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="ENT_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- ENT doctor end---------------
+
+    ---------------------- Gastroenterology doctor start----------------
+    //doctor name array
+    <string-array name="Gastroenterology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Gastroenterology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Gastroenterology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Gastroenterology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- EndocriGastroenterologynology doctor end---------------
+
+    ---------------------- Gynecology doctor start----------------
+    //doctor name array
+    <string-array name="Gynecology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Gynecology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Gynecology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Gynecology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Gynecology doctor end---------------
+
+    ---------------------- Hematology doctor start----------------
+    //doctor name array
+    <string-array name="Hematology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Hematology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Hematology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Hematology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Hematology doctor end---------------
+
+    ---------------------- Hepatology doctor start----------------
+    //doctor name array
+    <string-array name="Hepatology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Hepatology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Hepatology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Hepatology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Hepatology doctor end---------------
+
+    ---------------------- Medicine doctor start----------------
+    //doctor name array
+    <string-array name="Medicine_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Medicine_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Medicine_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Medicine_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Medicine doctor end---------------
+
+    ---------------------- Nephrology doctor start----------------
+    //doctor name array
+    <string-array name="Nephrology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Nephrology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Nephrology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Nephrology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Nephrology doctor end---------------
+
+    ---------------------- Neurology doctor start----------------
+    //doctor name array
+    <string-array name="Neurology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Neurology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Neurology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Neurology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Neurology doctor end---------------
+
+    ---------------------- Neurosurgery doctor start----------------
+    //doctor name array
+    <string-array name="Neurosurgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Neurosurgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Neurosurgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Neurosurgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Neurosurgery doctor end---------------
+
+    ---------------------- Neuromedicine doctor start----------------
+    //doctor name array
+    <string-array name="Neuromedicine_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Neuromedicine_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Neuromedicine_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Neuromedicine_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Neuromedicine doctor end---------------
+
+    ---------------------- Oncology doctor start----------------
+    //doctor name array
+    <string-array name="Oncology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Oncology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Oncology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Oncology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Oncology doctor end---------------
+
+    ---------------------- Ophthalmology doctor start----------------
+    //doctor name array
+    <string-array name="Ophthalmology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Ophthalmology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Ophthalmology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Ophthalmology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Ophthalmology doctor end---------------
+
+    ---------------------- Orthopedics doctor start----------------
+    //doctor name array
+    <string-array name="Orthopedics_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Orthopedics_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Orthopedics_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Orthopedics_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Orthopedics doctor end---------------
+
+    ---------------------- Paediatrics doctor start----------------
+    //doctor name array
+    <string-array name="Paediatrics_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Paediatrics_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Paediatrics_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Paediatrics_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Paediatrics doctor end---------------
+
+    ---------------------- Psychiatric doctor start----------------
+    //doctor name array
+    <string-array name="Psychiatric_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Psychiatric_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Psychiatric_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Psychiatric_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Psychiatric doctor end---------------
+
+    ---------------------- Pulmonology doctor start----------------
+    //doctor name array
+    <string-array name="Pulmonology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Pulmonology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Pulmonology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Pulmonology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Pulmonology doctor end---------------
+
+    ---------------------- Physiotherapy doctor start----------------
+    //doctor name array
+    <string-array name="Physiotherapy_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Physiotherapy_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Physiotherapy_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Physiotherapy_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Physiotherapy doctor end---------------
+
+    ---------------------- Rheumatology doctor start----------------
+    //doctor name array
+    <string-array name="Rheumatology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Rheumatology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Rheumatology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Rheumatology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Rheumatology doctor end---------------
+
+    ---------------------- Urology doctor start----------------
+    //doctor name array
+    <string-array name="Urology_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Urology_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Urology_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Urology_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Urology doctor end---------------
+
+    ---------------------- Cardiac Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Cardiac_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Cardiac_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Cardiac_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Cardiac_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Cardiac Surgery doctor end---------------
+
+    ---------------------- colorectal Surgery doctor start----------------
+    //doctor name array
+    <string-array name="colorectal_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="colorectal_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="colorectal_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="colorectal_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- colorectal Surgery doctor end---------------
+
+    ---------------------- Dental Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Dental_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Dental_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Dental_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Dental_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Dental Surgery doctor end---------------
+
+    ---------------------- ENT Surgery doctor start----------------
+    //doctor name array
+    <string-array name="ENT_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="ENT_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="ENT_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="ENT_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- ENT Surgery doctor end---------------
+
+    ---------------------- Eye Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Eye_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Eye_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Eye_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Eye_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Eye Surgery doctor end---------------
+
+    ---------------------- General Surgery doctor start----------------
+    //doctor name array
+    <string-array name="General_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="General_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="General_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="General_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- General Surgery doctor end---------------
+
+    ---------------------- Gynecology Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Gynecology_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Gynecology_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Gynecology_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Gynecology_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Gynecology Surgery doctor end---------------
+
+    ---------------------- Orthopedic Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Orthopedic_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Orthopedic_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Orthopedic_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Orthopedic_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Orthopedic Surgery doctor end---------------
+
+    ---------------------- Paediatric Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Paediatric_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Paediatric_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Paediatric_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Paediatric_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Paediatric Surgery doctor end---------------
+
+    ---------------------- Plastic Surger doctor start----------------
+    //doctor name array
+    <string-array name="Plastic_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Plastic_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Plastic_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Plastic_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Plastic Surger doctor end---------------
+
+    ---------------------- Surgical Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Surgical_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Surgical_Surgeryy_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Surgical_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Surgical_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Surgical Surgery doctor end---------------
+
+    ---------------------- Urology Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Urology_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Urology_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Urology_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Urology_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Urology Surgery doctor end---------------
+
+    ---------------------- Vascular Surgery doctor start----------------
+    //doctor name array
+    <string-array name="Vascular_Surgery_name">
+        <item>Dr A.k.m Hanif Chowdhury</item>
+    </string-array>
+    //doctor desc
+    <string-array name="Vascular_Surgery_desc">
+        <item>MBBS,MD (Cardiology)</item>
+
+    </string-array>
+    //doctor details
+    <string-array name="Vascular_Surgery_details">
+        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+
+    </string-array>
+    //doctor phone
+    <string-array name="Vascular_Surgery_Phone">
+        <item>01922-588061</item>
+
+
+    </string-array>
+
+    ---------------------- Vascular Surgery doctor end---------------
+
+
+
+
+
+    //grid option
+    <string name="option1">ডাক্তার খুজুন</string>
+    <string name="option2">এ্যাম্বুলেন্স</string>
+    <string name="option3">স্বাস্থ্য কেন্দ্র</string>
+    <string name="option4">ডায়াগনস্টিক সেন্টার</string>
+    <string name="option5">জরুরী ফোন</string>
+    <string name="option6">নিকটস্থ ক্লিনিক</string>
+
+    //hospital list
+    <string-array name="hospital_List">
+        <item>উপজেলা স্বাস্থ কমপ্লেক্স, রংপুর সদর, রংপুর</item>
+        <item>পরিবার পরিকল্পনা অফিস, রংপুর সদর, রংপুর</item>
+        <item>মমিনপুর ইউনিয়নের স্বাস্থ্য কেন্দ্র</item>
+        <item>মমিনপুর ইউনিয়নের পরিবার কল্যান কেন্দ্র</item>
+        <item>হরিদেবপুর ইউনিয়নের স্বাস্থ্য কেন্দ্র</item>
+        <item>হরিদেবপুর ইউনিয়নের পরিবার কল্যান কেন্দ্র</item>
+        <item>চন্দনপাট ইউনিয়নের স্বাস্থ্য কেন্দ্র</item>
+        <item>সদ্যপুষ্করণী ইউনিয়নের স্বাস্থ্য কেন্দ্র</item>
+        <item>সদ্যপুষ্করণী ইউনিয়নের পরিবার কল্যান কেন্দ্র</item>
+    </string-array>
+
+    //diagnostic list
+    <string-array name="diagnostic_list">
+        <item>ল্যাবএইড ডায়াগনস্টিক সেন্টার</item>
+        <item>উত্তরা ক্লিনিক</item>
+        <item>দেশ ক্লিনিক</item>
+        <item>ইসলামী ব্যংক কমিউনিটি হাসপাতাল</item>
+        <item>মর্ডান সার্জিক্যাল সেন্টার</item>
+        <item>আরজি হাসপাতাল ইউনিট-১</item>
+        <item>পদ্মা ক্লিনিক</item>
+        <item>ডক্টরস্‌ কমউনিটি হসপিটাল</item>
+        <item>উপশম ক্লিনিক</item>
+        <item>জনতা ক্লিনিক</item>
+        <item>দি সিটি হসপিটাল</item>
+        <item>ন্যাশনাল ক্লিনিক</item>
+        <item>ধাপ পলি ক্লিনিক</item>
+        <item>রয়েল ক্লিনিক</item>
+        <item>আইডিয়াল ক্লিনিক</item>
+        <item>হাবিব ম্যার্টার্নিটি এন্ড নার্সিং হোম</item>
+        <item>স্ট্যান্ডার্ড ক্লিনিক</item>
+        <item>পেসেন্ট কেয়ার নার্সিং হোম</item>
+        <item>হারাগাছ ক্লিনিক</item>
+        <item>হাইজিন ক্লিনিক এন্ড নার্সিং হোম</item>
+        <item>মিড টাউন ক্লিনিক এন্ড নার্সিং হোম</item>
+        <item>নিউ রংপুর ক্লিনিক</item>
+        <item>পপুলার ক্লিনিক এন্ড নার্সিং হোম</item>
+        <item>সিটি স্ক্যান ডায়াগনোষ্টিক সেন্টার</item>
+        <item>এ্যপোলে ডায়াগনোষ্টিক সেন্টার</item>
+        <item>ইকো ডায়াগনোষ্টিক সেন্টার</item>
+        <item>পপুলার ডায়াগনোষ্টিক সেন্টার</item>
+        <item>প্রাইম মেডিকেল কলেজ ও হাসপাতাল</item>
+        <item>গুডহেলথ হসপিটাল</item>
+    </string-array>
+    //button option
+    <string name="button_1">ডেঙ্গু জ্বরে করনীয়</string>
+    <string name="button_2">জ্বর ও সাধারণ ব্যাথায় করনীয়</string>
+    <string name="button_3">আগুনে পুড়লে</string>
+    <string name="button_4">ডায়াবেটিস হলে</string>
+    <string name="button_5">বুক জালাপোড়া ও বদ হজম হলে</string>
+    <string name="button_6">পেট ফাঁপা ও গ্যাস হলে</string>
+    <string name="button_7">ঘুম কম হলে</string>
+    <string name="button_8">পুষ্টিহীনতা</string>
+</resources>

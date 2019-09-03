@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view_pager.Tab2">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonId1"
+            style="@style/button_style2"
+            android:text="@string/button_1"
+            />
+        <Button
+            android:id="@+id/buttonId2"
+            style="@style/button_style2"
+            android:text="@string/button_2"
+            />
+        <Button
+            android:id="@+id/buttonId3"
+            style="@style/button_style2"
+            android:text="@string/button_3"
+            />
+        <Button
+            android:id="@+id/buttonId4"
+            style="@style/button_style2"
+            android:text="@string/button_4"
+            />
+        <Button
+            android:id="@+id/buttonId5"
+            style="@style/button_style2"
+            android:text="@string/button_5"
+            />
+        <Button
+            android:id="@+id/buttonId6"
+            style="@style/button_style2"
+            android:text="@string/button_6"
+            />
+        <Button
+            android:id="@+id/buttonId7"
+            style="@style/button_style2"
+            android:text="@string/button_7"
+            />
+        <Button
+            android:id="@+id/buttonId8"
+            style="@style/button_style2"
+            android:text="@string/button_8"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>
