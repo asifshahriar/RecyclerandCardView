@@ -148,21 +148,24 @@
     ---------------------- Chest doctor start----------------
     //doctor name array
     <string-array name="ChestDr_name">
-        <item>Dr A.k.m Hanif Chowdhury</item>
+        <item>Dr A.k.m Shaheduzzaman (Rebel)</item>
+        <item>Dr Monosontos Mollik</item>
     </string-array>
     //doctor desc
     <string-array name="ChestDr_desc">
-        <item>MBBS,MD (Cardiology)</item>
-
+        <item>MBBS,FCPS(Medicine), MD(Chest Disease)</item>
+        <item>MBBS,DTCD(Dhaka), FCCP(Chest), FRSH(London)</item>
     </string-array>
     //doctor details
     <string-array name="ChestDr_details">
-        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>কর্মস্থলঃ Asst. Prof(Dept of Medicine),Rangpur Medical College and Hospital \nচেম্বারঃ Popular Diagnostic Center One, Rangpur Sadar \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>কর্মস্থলঃ Prime Medical College and Hospital \nচেম্বারঃ Prime Medical College and Hospital \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
 
     </string-array>
     //doctor phone
     <string-array name="ChestDr_Phone">
-        <item>01922-588061</item>
+        <item>01754-547097</item>
+        <item>01730-033110</item>
     </string-array>
 
     ---------------------- Chest doctor end----------------
@@ -240,23 +243,25 @@
     ---------------------- Diabetic doctor start----------------
     //doctor name array
     <string-array name="Diabetic_name">
-        <item>Dr A.k.m Hanif Chowdhury</item>
+        <item>Dr Md. Razu Ahmed</item>
+        <item>Dr Md. Rezaul Alam</item>
     </string-array>
     //doctor desc
     <string-array name="Diabetic_desc">
-        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS, CCD(BIRDEM)</item>
+        <item>MBBS, DD(Thailand), MPH (Dhaka), CCL(India) CCD(BIRDEM)</item>
 
     </string-array>
     //doctor details
     <string-array name="Diabetic_details">
-        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>কর্মস্থলঃ Diabetologist, Rangpur Community Medical College \nচেম্বারঃ Rangpur Community Mdeical College Hospital, Rangpur Sadar \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>কর্মস্থলঃ Associate Prof. and Head of Dept, Rangpur Community Medical College \nচেম্বারঃ Rangpur Community Mdeical College Hospital, Rangpur Sadar \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
 
     </string-array>
     //doctor phone
     <string-array name="Diabetic_Phone">
-        <item>01922-588061</item>
-
-
+        <item>01717-292458</item>
+        <item>01717-292458</item>
     </string-array>
 
     ---------------------- Diabetic doctor end---------------
