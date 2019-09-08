@@ -404,18 +404,58 @@
     </string-array>
     //doctor desc
     <string-array name="Gynecology_desc">
-        <item>MBBS,MD (Cardiology)</item>
+        <item>MBBS,FCPS(Gyne and Obs)</item>
+        <item>MBBS,FCPS(Gyne)</item>
+        <item>MBBS,FRSH(London)</item>
+        <item>MBBS,MCPS(Gyne and Obs)</item>
+        <item>MBBS,MCPS(Gyne and Obs)</item>
+        <item>MBBS,FCPS(Gyne and Obs)</item>
+        <item>MBBS,MS(Gyne and Obs)</item>
+        <item>MBBS,MS(Gyne)</item>
+        <item>MBBS,FCPS(Gyne)</item>
+        <item>MBBS,DMU(BTEB),FCPS,MS(Gyne and Obs)</item>
+        <item>MBBS,FCPS(Gyne and Obs)</item>
+        <item>MBBS,MS(Gyne)</item>
+        <item>MBBS,DGO(DU),FCPS(Gyne)</item>
+        <item>MBBS,DGO(DU),FCPS(Gyne)</item>
+        <item>MBBS,MS(Gyne and Obs)</item>
 
     </string-array>
     //doctor details
     <string-array name="Gynecology_details">
-        <item>\n কর্মস্থলঃ Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
-
+        <item>\n কর্মস্থলঃ Consultant (Gyne and Obs)Rangpur Medical College and Hospital \n চেম্বারঃ Update Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Consultant of Gynecology \n চেম্বারঃ Popular Diagnostic Center One, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Consultant of Gynecology \n চেম্বারঃ Popular Diagnostic Center One, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Prime Medical College Hospital, Rangpur Sadar \n চেম্বারঃ Prime Medical College Hospital, Rangpur Sadar</item>
+        <item>\n কর্মস্থলঃ Prime Medical College Hospital, Rangpur Sadar \n চেম্বারঃ Prime Medical College Hospital, Rangpur Sadar</item>
+        <item>কর্মস্থলঃ Associate Prof.  Rangpur Community Medical College \nচেম্বারঃ Apollo Diagostic And Imaging Center, Rangpur Sadar \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Surgeon, Rangpur Medical College and Hospital \n চেম্বারঃ Annex Diagnostic Center, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>কর্মস্থলঃ Associate Prof. (Dept. of Gyne), Rangpur Community Medical College \nচেম্বারঃ Rangpur Community Mdeical College Hospital, Rangpur Sadar \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Associate Prof. Rangpur Medical College and Hospital(Dept. of Gyne) \n চেম্বারঃ Popular Diagnostic Center One, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Prime Medical College Hospital, Rangpur Sadar \n চেম্বারঃ Prime Medical College Hospital, Rangpur Sadar</item>
+        <item>কর্মস্থলঃ Associate Prof. Rangpur Community Medical College \nচেম্বারঃ Update Diagnostic, Rangpur Sadar \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>কর্মস্থলঃ Associate Prof. (Dept. of Gyne), Rangpur Community Medical College \nচেম্বারঃ Rangpur Community Mdeical College Hospital, Rangpur Sadar \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>কর্মস্থলঃ Prof. and Head of Dept. (Dept. of Gyne), Rangpur Community Medical College \nচেম্বারঃ Rangpur Community Mdeical College Hospital, Rangpur Sadar \n \nপ্রথম ভিজিটঃ ৬০০ টাকা \nপরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Prof. (Dept. of Gyne), Rangpur Medical College and Hospital(Dept. of Gyne) \n চেম্বারঃ Popular Diagnostic Center Two, Rangpur Sadar \n \n প্রথম ভিজিটঃ ৬০০ টাকা \n পরের ভিজিটঃ ৪০০ টাকা</item>
+        <item>\n কর্মস্থলঃ Prime Medical College Hospital, Rangpur Sadar \n চেম্বারঃ Prime Medical College Hospital, Rangpur Sadar</item>
     </string-array>
     //doctor phone
     <string-array name="Gynecology_Phone">
+        <item>01971-555555</item>
+        <item>01754-547097</item>
+        <item>01754-547097</item>
+        <item>01730-033110</item>
+        <item>01730-033110</item>
+        <item>01733-008087</item>
         <item>01922-588061</item>
-
+        <item>01717-292458</item>
+        <item>01754-547097</item>
+        <item>01730-033110</item>
+        <item>01971-555555</item>
+        <item>01717-292458</item>
+        <item>01717-292458</item>
+        <item>01944-447910</item>
+        <item>01730-033110</item>
 
     </string-array>
 
