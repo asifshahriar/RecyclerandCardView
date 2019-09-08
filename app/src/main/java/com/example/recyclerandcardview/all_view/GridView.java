@@ -7,8 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 
+import com.example.recyclerandcardview.doctor_activity.Cardiology;
 import com.example.recyclerandcardview.doctor_activity.ChestDiseases;
+import com.example.recyclerandcardview.doctor_activity.Dentistry;
+import com.example.recyclerandcardview.doctor_activity.Dermatology;
 import com.example.recyclerandcardview.doctor_activity.Diabetic;
+import com.example.recyclerandcardview.doctor_activity.Endocrinology;
 import com.example.recyclerandcardview.doctor_activity.MainActivity;
 import com.example.recyclerandcardview.R;
 import com.example.recyclerandcardview.adapter.GridAdapter;
@@ -39,16 +43,16 @@ public class GridView extends AppCompatActivity {
                 Intent myIntent;
 
                 if(i == 0){
-                    myIntent = new Intent(GridView.this, MainActivity.class);
+                    myIntent = new Intent(GridView.this, Cardiology.class);
                     startActivity(myIntent);
                 }else if(i == 1){
                     myIntent = new Intent(GridView.this, ChestDiseases.class);
                     startActivity(myIntent);
                 }else if(i == 2){
-                    myIntent = new Intent(GridView.this, MainActivity.class);
+                    myIntent = new Intent(GridView.this, Dentistry.class);
                     startActivity(myIntent);
                 }else if(i == 3){
-                    myIntent = new Intent(GridView.this, MainActivity.class);
+                    myIntent = new Intent(GridView.this, Dermatology.class);
                     startActivity(myIntent);
                 }else if(i == 4){
                     myIntent = new Intent(GridView.this, Diabetic.class);
@@ -57,7 +61,7 @@ public class GridView extends AppCompatActivity {
                     myIntent = new Intent(GridView.this, MainActivity.class);
                     startActivity(myIntent);
                 }else if(i == 6){
-                    myIntent = new Intent(GridView.this, MainActivity.class);
+                    myIntent = new Intent(GridView.this, Endocrinology.class);
                     startActivity(myIntent);
                 }else if(i == 7){
                     myIntent = new Intent(GridView.this, MainActivity.class);
